@@ -247,6 +247,10 @@ sudo a2enmod   rewrite
 sudo apache2ctl configtest      # Syntax OK ?
 sudo systemctl reload apache2
 ```
+> Ahora puede acceder a la URL para iniciar la instalación de la base de datos a través del asistente web:
+>
+> `http://<ip_servidor>:8095`
+> 
 | Paso | Acción                 | Comentario                                      |
 | ---- | ---------------------- | ----------------------------------------------- |
 | 1    | Idioma → Español       |                                                 |
